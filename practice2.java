@@ -33,7 +33,36 @@ String theLongestWord = "";
 
 System.out.println("The longest word in the arrayList that starts with B is: "+theLongestWord+ "!"); //expected res = Baaaaarnacles, longest B word at 13
 
+String result = returnShortestB(wordsThatStartWithB);
+System.out.println("The shortest word is: " + result);
 }//end main
+
+
+
+public static String returnShortestB(ArrayList<String> list){
+   
+
+    String shortestWord = list.get(0);
+
+    for(int i = 0; i<list.size(); i++){
+
+    String word = list.get(i);
+
+        if(word.startsWith("B") && word.length()<shortestWord.length()){
+
+           shortestWord = word;
+
+
+        }// end if
+
+
+
+}//end for
+
+
+return shortestWord;
+
+}// end of method
 
 
 }//end practice2

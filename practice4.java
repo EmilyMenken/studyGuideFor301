@@ -61,6 +61,59 @@ countOdd++;
 int result = countOdd-countEven; //expected res= 0, 13(even)-13(odd)=0
 System.out.println(result);
 
+
+
+System.out.println(sum(alphabet));
+
+
 }//end main
+
+
+public static int sum(HashMap<Character, Integer> adding){
+
+int evenCount =0;
+int oddCount =0;
+
+    for(int summing : adding.values()){
+
+
+        if(summing %2 == 0){
+
+            evenCount++;
+
+
+
+}//end if
+            else{
+
+                oddCount++;
+
+        }//end else
+
+}//end for
+
+int result = evenCount + oddCount;
+return result;
+
+}//end method
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }//end practice4

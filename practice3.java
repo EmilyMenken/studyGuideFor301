@@ -37,7 +37,47 @@ System.out.println(word); //expected res= Noggin, Blizzard, Jeffery -under 10 ch
 
 }//end for
 
+
+System.out.println(countWhatHasI(longerThanNShorterThanM, n, m));
+
+
+
 }//end main
+
+
+public static int countWhatHasI(HashSet<String> words, int n, int m){
+
+    int count = 0;
+
+    for(String word : words ){
+
+        if(word.contains("i") && word.length()>n && word.length()<m ){
+
+        count++;
+
+}
+
+}
+
+
+return count; //expected res: 2;
+
+    
+}//end Count
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
