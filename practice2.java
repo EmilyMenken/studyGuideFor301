@@ -31,7 +31,7 @@ String theLongestWord = "";
     }//end if
     }//end for
 
-System.out.println("The longest word in the arrayList that starts with B is: "+theLongestWord+ "!");
+System.out.println("The longest word in the arrayList that starts with B is: "+theLongestWord+ "!"); //expected res = Baaaaarnacles, longest B word at 13
 
 }//end main
 

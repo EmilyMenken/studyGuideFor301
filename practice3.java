@@ -30,7 +30,7 @@ for(String word: longerThanNShorterThanM){
 
 if (word.length()> n && word.length() <m) {
     
-System.out.println(word);
+System.out.println(word); //expected res= Noggin, Blizzard, Jeffery -under 10 chars but over 4 chars
 
 
 }//end if
