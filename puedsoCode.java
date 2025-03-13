@@ -12,7 +12,18 @@ public class puedsoCode {
 
 // count words between n and m characters in an array
 
+// longest word starts with B
+// String [] randomWords = {"", "", "",}
+// String = "longestWord";
 
+// for(int i; i< randomWords.length(); i++)
+
+// if (word.startsWith("B") && word.length() > theLongestWord.length()){
+//     theLongestWord = word;
+// }//end if
+// }//end for
+
+// public static findLongestBWord
 
 // create count 0
 
